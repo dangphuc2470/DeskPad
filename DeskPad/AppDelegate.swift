@@ -12,7 +12,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let viewController = ScreenViewController()
         window = NSWindow(contentViewController: viewController)
         window.delegate = viewController
-        window.title = "DeskPad"
+        window.title = "DeskPadClone"
         window.makeKeyAndOrderFront(nil)
         window.titlebarAppearsTransparent = true
         window.isMovableByWindowBackground = true
