@@ -23,13 +23,13 @@ class ScreenViewController: SubscriberViewController<ScreenViewData>, NSWindowDe
 
         let descriptor = CGVirtualDisplayDescriptor()
         descriptor.setDispatchQueue(DispatchQueue.main)
-        descriptor.name = "DeskPad Display"
+        descriptor.name = "DeskPad Display 2"
         descriptor.maxPixelsWide = 3840
         descriptor.maxPixelsHigh = 2160
         descriptor.sizeInMillimeters = CGSize(width: 1600, height: 1000)
-        descriptor.productID = 0x1234
-        descriptor.vendorID = 0x3456
-        descriptor.serialNum = 0x0001
+        descriptor.productID = 0x5678
+        descriptor.vendorID = 0x7890
+        descriptor.serialNum = 0x0002
 
         let display = CGVirtualDisplay(descriptor: descriptor)
         store.dispatch(ScreenViewAction.setDisplayID(display.displayID))

@@ -38,7 +38,7 @@
 		6D68E1AE287ABB9900CD574A /* ScreenConfigurationSideEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenConfigurationSideEffect.swift; sourceTree = "<group>"; };
 		6D68E1B1287ABDB900CD574A /* NSScreen+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSScreen+Extensions.swift"; sourceTree = "<group>"; };
 		6D68E1B3287ABFC800CD574A /* ScreenConfigurationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenConfigurationState.swift; sourceTree = "<group>"; };
-		6DC0444E2801877F00281728 /* DeskPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeskPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC0444E2801877F00281728 /* DeskPadClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeskPadClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC044512801877F00281728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DC044552801878100281728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DC0445A2801878100281728 /* DeskPad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeskPad.entitlements; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		6DC0444F2801877F00281728 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DC0444E2801877F00281728 /* DeskPad.app */,
+				6DC0444E2801877F00281728 /* DeskPadClone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DC0444D2801877F00281728 /* DeskPad */ = {
+		6DC0444D2801877F00281728 /* DeskPadClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DC0445D2801878100281728 /* Build configuration list for PBXNativeTarget "DeskPad" */;
+			buildConfigurationList = 6DC0445D2801878100281728 /* Build configuration list for PBXNativeTarget "DeskPadClone" */;
 			buildPhases = (
 				6D2F147F280C1C1400A3A2E5 /* Run SwiftFormat */,
 				6DC0444A2801877F00281728 /* Sources */,
@@ -161,12 +161,12 @@
 			);
 			dependencies = (
 			);
-			name = DeskPad;
+			name = DeskPadClone;
 			packageProductDependencies = (
 				6D2F1481280C1F9200A3A2E5 /* ReSwift */,
 			);
 			productName = DeskPad;
-			productReference = 6DC0444E2801877F00281728 /* DeskPad.app */;
+			productReference = 6DC0444E2801877F00281728 /* DeskPadClone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -184,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6DC044492801877F00281728 /* Build configuration list for PBXProject "DeskPad" */;
+			buildConfigurationList = 6DC044492801877F00281728 /* Build configuration list for PBXProject "DeskPadClone" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -200,7 +200,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DC0444D2801877F00281728 /* DeskPad */,
+				6DC0444D2801877F00281728 /* DeskPadClone */,
 			);
 		};
 /* End PBXProject section */
@@ -384,10 +384,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = DeskPad/DeskPad.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 6;
-				DEVELOPMENT_TEAM = TYPC962S4N;
+				DEVELOPMENT_TEAM = 7KP89P5499;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -397,7 +398,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.3.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stengo.DeskPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phucdnh.DeskPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -410,10 +411,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = DeskPad/DeskPad.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 6;
-				DEVELOPMENT_TEAM = TYPC962S4N;
+				DEVELOPMENT_TEAM = 7KP89P5499;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -423,7 +425,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.3.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stengo.DeskPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phucdnh.DeskPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -433,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DC044492801877F00281728 /* Build configuration list for PBXProject "DeskPad" */ = {
+		6DC044492801877F00281728 /* Build configuration list for PBXProject "DeskPadClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DC0445B2801878100281728 /* Debug */,
@@ -442,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DC0445D2801878100281728 /* Build configuration list for PBXNativeTarget "DeskPad" */ = {
+		6DC0445D2801878100281728 /* Build configuration list for PBXNativeTarget "DeskPadClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DC0445E2801878100281728 /* Debug */,
