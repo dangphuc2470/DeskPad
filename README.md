@@ -19,7 +19,7 @@ DeskPad creates a virtual display that is mirrored within its application window
 
 # Installation
 
-Run the project with XCode.
+You can either download the [latest release binary](https://github.com/dangphuc2470/DeskPad/releases) or run the project with XCode.
 
 # Usage
 DeskPad behaves like any other display. Launching the app is equivalent to plugging in a monitor, so macOS will take care of properly arranging your windows to their previous configuration.
